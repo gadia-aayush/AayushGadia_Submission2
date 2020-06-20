@@ -1,4 +1,4 @@
-#### README- InstaHyre Assignment Submission :: Aayush Gadia
+#### README- Assignment Submission :: Aayush Gadia
 
 -----
 
