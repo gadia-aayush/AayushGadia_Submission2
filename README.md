@@ -17,7 +17,7 @@
 
 - *Description-*
 	- *Login is done using HTML Templates, because their is CSRF Validation by Django so it can't be developed without rendering a Page. Similarly SignUp is done*
-	- *For, security issues whenever a user will login, then on passing the username & password of the user to the *GetToken URL Endpoint, token would be returned. Using this token we could restrict all the functionality of the Application like **Search, Marking Spam, Logout** (this was also asked, that nothing would be public)*
+	- *For, security issues whenever a user will login, then on passing the username & password of the user to the GetToken URL Endpoint, token would be returned. Using this token we could restrict all the functionality of the Application like **Search, Marking Spam, Logout** (this was also asked, that nothing would be public)*
 	- *When the Logout URL Endpoint is hit, then the user whose token was authenticated, that user token is deleted from the token table because the user has logged out.*
 
 - *Test Cases-*
